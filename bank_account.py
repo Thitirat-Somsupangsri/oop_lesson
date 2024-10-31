@@ -1,6 +1,19 @@
 account_database = []
-'''hello'''
-def create_account(num, type, name, init_balance):
+class Account:
+    def __init__(self, num, type, name, balance):
+        self.num = num
+        self.type = type
+        self.name = name
+        self.balance = balance
+
+    def create_account(self):
+
+
+# To do
+
+
+
+'''def create_account(num, type, name, init_balance):
     index = search_account_db(num)
     if index == -1:
         account = {}
@@ -68,3 +81,4 @@ delete_account('0003')
 show_account('0003')
 deposit('0003', 50)
 withdraw('0001', 6000)
+'''
