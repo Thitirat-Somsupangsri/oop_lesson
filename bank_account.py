@@ -1,5 +1,5 @@
 account_database = []
-
+'''hello'''
 def create_account(num, type, name, init_balance):
     index = search_account_db(num)
     if index == -1:
